@@ -6,20 +6,24 @@
     box-sizing: border-box;
     font-family: 'Metrophobic', sans-serif;
 }
-ul, nav {
+
+ul,
+nav {
     list-style: none;
 }
+
 a {
     text-decoration: none;
     cursor: pointer;
     opacity: 0.7;
 }
+
 a:hover {
     opacity: 1;
 }
 
 /* HEADER*/
-header{
+header {
     background-color: #fff;
     width: 100%;
     position: absolute;
@@ -27,32 +31,41 @@ header{
     left: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;/* alinhamento vertical*/ 
+    align-items: center;
+    /* alinhamento vertical*/
     padding: 10px 40px;
 }
+
 header img {
     width: 250px;
 }
-header nav{
+
+header nav {
     display: flex;
 }
+
 header li {
     margin: 0 15px;
 }
+
 header li a {
     color: #191c03;
     text-transform: uppercase;
 }
+
 header li:first-child {
     margin-left: 0;
 }
+
 header li:last-child {
     margin-right: 0;
 }
+
 @media (max-width: 700px) {
     header {
         flex-direction: column;
     }
+
     header img {
         margin-bottom: 15px;
 
@@ -61,24 +74,29 @@ header li:last-child {
 
 /*HERO*/
 .hero {
-    background-image: url(../img/hero.jpg);
+    background-image: url(./img/hero.jpg);
     background-size: cover;
     min-height: 100vh;
     color: #fff;
     display: flex;
-    justify-content: center; /*alinha horizontalmente*/
-    align-items: center; /*alinha verticalmente*/
+    justify-content: center;
+    /*alinha horizontalmente*/
+    align-items: center;
+    /*alinha verticalmente*/
     flex-direction: column;
     text-align: center;
 }
+
 .hero h1 {
     font-size: 3.2rem;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
+
 .hero h3 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
 .btn {
     background-color: #fff;
     border-radius: 4px;
@@ -86,13 +104,16 @@ header li:last-child {
     padding: 20px 50px;
     text-transform: uppercase;
 }
+
 @media (max-width: 700px) {
     .hero h1 {
         font-size: 2.25rem;
     }
+
     .hero h3 {
         font-size: 1.25rem;
     }
+
     .btn {
         padding: 15px 40px;
     }
@@ -105,18 +126,21 @@ header li:last-child {
     align-items: center;
     padding: 85px 50px;
 }
+
 .conheca-hotel h3 {
     font-size: 2rem;
     margin-bottom: 35px;
-    color:  #191c03;
+    color: #191c03;
 }
+
 .conheca-hotel p {
     max-width: 800px;
     margin-bottom: 35px;
-    color:  #191c03;
+    color: #191c03;
     text-align: center;
     font-size: 1.2rem;
 }
+
 .conheca-hotel hr {
     width: 200px;
     height: 2px;
@@ -128,8 +152,9 @@ header li:last-child {
 .conheca-hotel .grid {
     width: 100%;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
+
 .conheca-hotel .grid li {
     height: 350px;
     padding: 20px;
@@ -138,14 +163,21 @@ header li:last-child {
     background-size: cover;
     background-position: center;
 }
+
 .small {
-    flex-basis: 40%; /* Indica o tamanho inicial do flex item antes da distribuição do espaço restante. */
+    flex-basis: 40%;
+    /* Indica o tamanho inicial do flex item antes da distribuição do espaço restante. */
 }
+
 .large {
-    flex-basis: 60%; /* Indica o tamanho inicial do flex item antes da distribuição do espaço restante. */
+    flex-basis: 60%;
+    /* Indica o tamanho inicial do flex item antes da distribuição do espaço restante. */
 }
-@media (max-width: 800px){
-    .small, .large {
+
+@media (max-width: 800px) {
+
+    .small,
+    .large {
         flex-basis: 100%;
     }
 }
@@ -154,15 +186,18 @@ header li:last-child {
 .caracteristicas {
     display: flex;
     flex-direction: column;
-    align-items: center; /*alinha os itens horizontalmente*/
+    align-items: center;
+    /*alinha os itens horizontalmente*/
     padding: 85px 50px;
     background-color: #191c03;
 }
+
 .caracteristicas h3 {
     font-size: 2rem;
     margin-bottom: 35px;
     color: #fff;
 }
+
 .caracteristicas p {
     max-width: 800px;
     font-size: 1.2rem;
@@ -170,6 +205,7 @@ header li:last-child {
     color: #fff;
     text-align: center;
 }
+
 .caracteristicas hr {
     width: 200px;
     height: 2px;
@@ -177,46 +213,56 @@ header li:last-child {
     margin-bottom: 50px;
     background-color: #fff;
 }
+
 .caracteristicas .grid {
     display: flex;
     width: 100%;
 }
+
 .caracteristicas .grid li {
     padding: 0px 30px;
     text-align: center;
 }
+
 .caracteristicas .grid li i {
     color: #c3c63b;
     font-size: 3.5rem;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
+
 .caracteristicas .grid li i:hover {
-    color:#fff;
+    color: #fff;
     transition: 0.5s;
     cursor: pointer;
 }
+
 .caracteristicas .grid h4 {
     font-size: 1.5rem;
     color: #c3c63b;
     margin-bottom: 30px;
 
 }
+
 .caracteristicas .grid h4:hover {
-    color:#fff;
+    color: #fff;
     transition: 0.5s;
     cursor: pointer;
 
 }
+
 .caracteristicas .grid li p {
-    color: #fff;  
+    color: #fff;
 }
+
 @media (max-width: 850px) {
     .caracteristicas .grid {
-        flex-direction: column;   
+        flex-direction: column;
     }
+
     .caracteristicas .grid li p {
         text-align: justify;
     }
+
     .caracteristicas p {
         text-align: justify;
 
