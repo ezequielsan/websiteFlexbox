@@ -190,7 +190,7 @@ header li:last-child {
     /*alinha os itens horizontalmente*/
     padding: 85px 50px;
     background-color: #191c03;
-    
+
 }
 
 .caracteristicas h3 {
@@ -269,7 +269,7 @@ header li:last-child {
         text-align: center;
 
     }
-    
+
 
 }
 
@@ -280,6 +280,7 @@ header li:last-child {
     align-items: center;
     padding: 100px 50px;
 }
+
 .newsletter h3 {
     font-size: 2rem;
     margin-bottom: 35px;
@@ -287,6 +288,7 @@ header li:last-child {
     text-align: center;
 
 }
+
 .newsletter p {
     max-width: 800px;
     margin-bottom: 35px;
@@ -294,6 +296,7 @@ header li:last-child {
     text-align: center;
     font-size: 1.2rem;
 }
+
 .newsletter hr {
     width: 200px;
     height: 2px;
@@ -301,6 +304,7 @@ header li:last-child {
     margin-bottom: 70px;
     border: none;
 }
+
 .newsletter form {
     display: flex;
     align-items: center;
@@ -310,6 +314,7 @@ header li:last-child {
     max-width: 800px;
 
 }
+
 .newsletter input {
     padding: 15px;
     border: 1px solid #c3c63b;
@@ -317,6 +322,7 @@ header li:last-child {
     margin-right: 15px;
     flex: 1;
 }
+
 .newsletter button {
     padding: 15px;
     background-color: #c3c63b;
@@ -325,8 +331,9 @@ header li:last-child {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    
+
 }
+
 .newsletter button:hover {
     background-color: #d8db2e;
     transition: 0.4s;
@@ -346,24 +353,31 @@ header li:last-child {
     background-color: #191c03;
     padding: 50px 0;
     align-items: center;
+    
 }
+
 .footer ul {
     display: flex;
     margin-bottom: 25px;
 }
+
 .footer ul li {
     margin-right: 15px;
 }
+
 .footer ul li:last-child {
     margin-right: 0;
 }
+
 .footer ul li a {
     color: #c3c63b;
     font-size: 3rem;
 }
+
 .footer ul li a:hover {
     color: #cfd136;
 }
+
 .footer p {
     color: #c3c63b;
     font-size: 1.2rem;
